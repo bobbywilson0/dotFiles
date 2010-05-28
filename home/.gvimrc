@@ -1,11 +1,11 @@
 " And pretty fonts
-  set guifont=Inconsolata:h24
+  set guifont=Inconsolata:h16
 " No toolbar
   set guioptions-=T
 " fullscreen maximizes vertically AND horizontally
   set fuoptions=maxvert,maxhorz
   set lines=80
-  set columns=90
+  set columns=130
   
  
 " bind command-/ to toggle comment

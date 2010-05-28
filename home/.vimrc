@@ -2,7 +2,7 @@
 
   scriptencoding utf-8
   colorscheme ir_black
-  set guifont=Inconsolata:h24
+  set guifont=Monaco:h16
   set nowrap
   
   " These two enable syntax highlighting
