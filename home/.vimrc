@@ -1,7 +1,6 @@
 " Section: configuration
 
   scriptencoding utf-8
-  colorscheme ir_black
   set guifont=Monaco:h16
   set nowrap
   
@@ -36,7 +35,7 @@
   " Enable tab complete for commands.
   " first tab shows all matches. next tab starts cycling through the matches
   set wildmenu
-  set wildmode=list:longest,full
+  set wildmode=list:longest,list:full
 
   " Display extra whitespace
   "set list listchars=tab:»·,trail:·

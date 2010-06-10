@@ -1,3 +1,5 @@
+" Color for macvim only
+  colorscheme ir_black
 " And pretty fonts
   set guifont=Inconsolata:h16
 " No toolbar
