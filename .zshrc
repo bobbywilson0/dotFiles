@@ -16,3 +16,5 @@ compinit
 autoload -U colors && colors
 PS1="%{$fg[yellow]%}%~ %{$reset_color%}%% "
 PATH=/usr/local/bin:$PATH
+
+alias git=hub
