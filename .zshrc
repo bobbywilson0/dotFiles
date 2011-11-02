@@ -11,10 +11,12 @@ zstyle :compinstall filename '/home/bobbyw/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+#
+EDITOR=/usr/bin/vim
+PAGER=/usr/bin/less
 
 autoload -U colors && colors
 PS1="%{$fg[yellow]%}%~ %{$reset_color%}%% "
-PATH=/usr/local/bin:$PATH
-
+PATH=$PATH:/usr/local/bin:~/.rbenv/bin:~/.rbenv/shims:~/bin
 alias git=hub
+eval "$(rbenv init -)"

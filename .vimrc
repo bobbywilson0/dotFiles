@@ -7,6 +7,9 @@
   " These two enable syntax highlighting
   set nocompatible          " We're running Vim, not Vi!
   syntax on                 " Enable syntax highlighting
+  set background=dark
+  colorscheme solarized
+
   " Enable filetype-specific indenting and plugins
   filetype plugin indent on
   " show the `best match so far' as search strings are typed
