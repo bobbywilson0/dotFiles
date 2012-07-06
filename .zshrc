@@ -12,7 +12,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 #
-EDITOR=/usr/bin/vim
+EDITOR='subl -w'
+VISUAL_EDITOR='subl -w'
+GIT_EDITOR='subl -w'
 PAGER=/usr/bin/less
 
 autoload -U colors && colors
@@ -20,8 +22,6 @@ PS1="%{$fg[yellow]%}%~ %{$reset_color%}%% "
 PATH=$HOME/.rbenv/bin:/usr/local/bin:~/bin:/usr/local/share/python:$PATH
 export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
 alias git=hub
-export HADOOP_HOME=/usr/local/hadoop
-export PATH=$PATH:$HADOOP_HOME/bin
 
 alias vi=vim
 
